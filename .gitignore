@@ -1,0 +1,17 @@
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies and generated output (none are required by this static MVP)
+node_modules/
+dist/
+build/
+
